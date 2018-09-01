@@ -62,7 +62,11 @@ public class DCIT502018 {
         return x + y;
     }
     
-// Method overloading same name different parameters
+    public static double add(double x, double y){
+        return x + y;
+    }
+    
+//Method overloading same name different parameters
 
     public static int add(int x, int y, int z) {
 //        int sum  = x + y;
