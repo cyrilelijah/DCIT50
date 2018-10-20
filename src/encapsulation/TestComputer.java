@@ -12,9 +12,9 @@ package encapsulation;
  */
 public class TestComputer {
     public static void main(String[] args) {
-//        Computer computer = new Computer();
+        Computer computer = new Computer();
 //        System.out.println(Computer.count);
-//        computer.setColor("Pink");
+        computer.setColor("Pink");
 //        computer.setRam(1);
 //        computer.setHdd(1);
 //        computer.setProcessor("Intel core i3");
@@ -37,7 +37,12 @@ public class TestComputer {
         
         
         Computer desktop = new Computer();
-        Computer laptop = new Computer();
-        System.out.println(Computer.count);   
+        Computer laptop = new Computer(); 
+//        Computer laptop2 = new Computer(); 
+//        laptop.
+//        Computer.
+        System.out.println(Computer.count); 
+        System.out.println(laptop.count); 
+        
     }
 }

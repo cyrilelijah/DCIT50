@@ -24,7 +24,7 @@ public class DCIT502018 {
 //         num1 = sc.nextInt();
 //         System.out.println("Enter second number:");
 //         num2 = sc.nextInt();
-        
+//        
 //         int sum = add(num1, num2);
 //         if(sum<0){
 //             System.out.println("Negative");
@@ -37,8 +37,10 @@ public class DCIT502018 {
 //         System.out.println("Sum : " + sum);
 
 
-        String cammelCasing;
-        String snake_casing;
+//        String cammelCasing;
+//        String snake_casing;
+        printHello();
+        System.out.println(printSomething());
     }
 
     public static void printHello(String toPrint) {

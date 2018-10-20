@@ -14,9 +14,9 @@ public class TestPolymorphism {
 //        Student s = new Student();
 //        s.eat();
 //        s.breath();
-//        Person p = new Student();//Upcasting or dynamic binding
+        Person p = new Student();//Upcasting or dynamic binding
 //        System.out.println("Run time");
-//        p.eat();
+        p.eat();
 //        
 //        Student s = (Student) p;//Downcasting or static binding
 //        System.out.println("Compile time");

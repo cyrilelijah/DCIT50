@@ -91,7 +91,7 @@ public class Computer {
         System.out.println("Shutting down..");
     }
     
-    public void pullThePlug(){
+    public static void pullThePlug(){
         
     }
     

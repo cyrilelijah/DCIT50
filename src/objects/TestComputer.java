@@ -9,10 +9,13 @@ package objects;
  *
  * @author Cyril
  */
+
+// every variable or method that is declared 
 public class TestComputer {
     public static void main(String[] args) {
         Computer computer = new Computer();
         computer.color = "Pink";
+        
         computer.ram = 1;
         computer.hdd = 1;
         computer.processor = "Intel core i3";
